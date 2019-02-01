@@ -266,7 +266,7 @@ d3.select(".start").on("click", function() {
     .attr('x', 90)
     .attr('y', 120)
     .attr("font-size", "13px")
-    .text('<-- 1.Brexit');
+    .text('1.Brexit');
 
   
   var text1 = svg.append("text")
@@ -276,7 +276,7 @@ d3.select(".start").on("click", function() {
     .attr('x', 27)
     .attr('y', 240)
     .attr("font-size", "13px")
-    .text('2.Flash crash-->');
+    .text('2.Flash crash');
   
    var text1 = svg.append("text")
    .attr("id","text1")
@@ -295,7 +295,7 @@ d3.select(".start").on("click", function() {
     .attr('x', 110)
     .attr('y', 145)
     .attr("font-size", "13px")
-    .text('4.Thresa May Florence Speech-->');
+    .text('4.Thresa May Florence Speech');
   
   var text1 = svg.append("text")
    .attr("id","text1")
@@ -304,7 +304,7 @@ d3.select(".start").on("click", function() {
     .attr('x', 232)
     .attr('y', 55)
     .attr("font-size", "13px")
-    .text('5.Irish border disagreement-->');
+    .text('5.Irish border disagreement');
   
   var text1 = svg.append("text")
    .attr("id","text1")
@@ -313,13 +313,13 @@ d3.select(".start").on("click", function() {
     .attr('x', 340)
     .attr('y', 205)
     .attr("font-size", "13px")
-    .text('6.Letters of no confidnce -->');
+    .text('6.Letters of no confidnce');
 
 
 
   path.each( function (d,i) { d.totalLength = this.getTotalLength(); })
 
-var segmentDuration = 31400/multiDataset.length;
+var segmentDuration = 31250/multiDataset.length;
   path
       .attr("stroke-dasharray", d => d.totalLength + " " + d.totalLength)
       .attr("stroke-dashoffset", d => d.totalLength)
