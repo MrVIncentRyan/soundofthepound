@@ -263,7 +263,7 @@ d3.select(".start").on("click", function() {
    .attr("id","text1")
    .transition()
     .delay(4700)
-    .attr('x', 90)
+    .attr('x', 95)
     .attr('y', 120)
     .attr("font-size", "13px")
     .text('1.Brexit');
@@ -273,7 +273,7 @@ d3.select(".start").on("click", function() {
    .attr("id","text1")
    .transition()
     .delay(7600)
-    .attr('x', 27)
+    .attr('x', 37)
     .attr('y', 240)
     .attr("font-size", "13px")
     .text('2.Flash crash');
@@ -285,14 +285,14 @@ d3.select(".start").on("click", function() {
     .attr('x', 280)
     .attr('y', 240)
     .attr("font-size", "13px")
-    .text('<---3.General Election');
+    .text('3.General Election');
 
   
   var text1 = svg.append("text")
    .attr("id","text1")
    .transition()
     .delay(17000)
-    .attr('x', 110)
+    .attr('x', 125)
     .attr('y', 145)
     .attr("font-size", "13px")
     .text('4.Thresa May Florence Speech');
@@ -301,7 +301,7 @@ d3.select(".start").on("click", function() {
    .attr("id","text1")
    .transition()
     .delay(22800)
-    .attr('x', 232)
+    .attr('x', 240)
     .attr('y', 55)
     .attr("font-size", "13px")
     .text('5.Irish border disagreement');
@@ -310,7 +310,7 @@ d3.select(".start").on("click", function() {
    .attr("id","text1")
    .transition()
     .delay(27550)
-    .attr('x', 340)
+    .attr('x', 355)
     .attr('y', 205)
     .attr("font-size", "13px")
     .text('6.Letters of no confidnce');
