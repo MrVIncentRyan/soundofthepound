@@ -1,4 +1,5 @@
 var audio = document.getElementById("myAudio");
+			audio.load;
 
 
 
